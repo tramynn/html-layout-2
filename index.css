@@ -1,0 +1,171 @@
+body {
+    background-color: #0030C7;
+    background-image: url("https://s3.amazonaws.com/designco-web-assets/uploads/2017/07/Podcast-large_2x-1450x1112.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    color: white;
+    margin: 0 auto;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
+
+/* NAV */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+    font-size: 1vw;
+    letter-spacing: .05em;
+}
+
+#logo {
+    font-size: 2vw;
+    margin: 20px;
+}
+.nav-logo {
+    font-size: 1.2vw;
+    display: flex;
+    align-items: center;
+}
+
+ul > li {
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: space-around;
+    width: 10vw;
+}
+
+li, button {
+    text-transform: uppercase;
+}
+
+li:hover {
+    color: #0030C7;
+}
+/* HEADER */
+#header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.header-logo, h1, p, #start-exploring-button {
+    margin: 1%;
+}
+
+.header-logo {
+    font-size: 5vw;
+}
+
+h1 {
+    font-size: 4vw;
+}
+
+p {
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2vw;
+    text-align: center;
+    line-height: 2em;
+}
+
+hr {
+    background-color: #FFFFFF;
+	border: 0px;
+	display: block;
+    height: 1px;
+    width: 47px;
+    transform: rotate(90deg);
+    opacity: .25;
+}
+
+/* BUTTONS */
+#subscribe {
+    color: #FFFFFF;
+	border: 2px 2px 2px white;
+	background-color: transparent;
+    border-radius: 25px;
+    font-size: 1em;
+    padding: 15px 30px;
+	width: 100%;
+	height: 100%;
+}
+
+#subscribe:hover {
+	color: #0D27CC;
+	background-color: white;
+}
+
+#start-exploring-button {
+    color: #0D27CC;
+	background-color: white;
+    border-radius: 25px;
+    font-size: 1em;
+    font-style: bold;
+    text-align: center;
+    padding: 15px 30px;
+	width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#start-exploring-button:hover {
+    color: white;
+	background-color: transparent;
+}
+
+#scroll {
+    margin: 50px;
+    font-size: .5vw;
+}
+
+/* SOCIAL MEDIA NAV */
+#invision {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1vw;
+    position: fixed;
+    transform: rotate(-90deg);
+    bottom: 17vh;
+    text-transform: uppercase;
+}
+
+#social {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#social-media-nav {
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: fixed;
+    right: 5vw;
+    bottom: 10vh;
+}
+
+.fa-twitter, .fa-facebook-f, .fa-linkedin-in, .fa-link {
+    color: white;
+    font-size: 1.25vw;
+    margin: 5px;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+}
